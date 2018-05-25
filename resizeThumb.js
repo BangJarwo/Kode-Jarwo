@@ -1,0 +1,1 @@
+function resizeThumbextralarge(e){for(var r=document.querySelectorAll("img"),t=0;t<r.length;t++)r[t].src=r[t].src.replace(/\/s72\-c/,"/s"+e),r[t].width=e,r[t].height=e}resizeThumbextralarge("600");
